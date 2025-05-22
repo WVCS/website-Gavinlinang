@@ -1,1 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+</head>
+<body>
+  
+  
+  
+       <nav>
+      <li> <a href="index.html"> Home </a>  </li>
+
+
+      <li> <a href="https://westview.powayusd.com/apps/pages/learning-schedule"> Westview schedule </li>
+      <li> <a href="https://studio.code.org/projects/applab/Mb6zpfHSDMelgyh6tEm4L65Rk0fhZ-XTT6IJtWjoFJI"> Coin flipping </a> </li>
+
+
+
+
+     
+     </nav>
+  
+  <br>
+  <br>
+  <div id="entireDiv">
+      <form autocomplete="off" action="http://www.google.com">
+        <div class="autocomplete">
+          <input id="myinput" type="text" name="box"
+                 placeholder="Searchin...">
+        </div>
+    </form>
+  </div>
+  <br>
+  <br>
+   
+ 
+  
+  <div class="wrapper">
+    <div class="Header"> 
+      <br>
+      
+      <center> <p> Gavin's Website </p> 
+        <p> Apcs wbsite yipee </p>
+        
+        <img src="https://images.squarespace-cdn.com/content/53b839afe4b07ea978436183/1608506201082-GU22QYZJC5TWXRSY24RX/traditional-food-around-the-world-Travlinmad.jpg?content-type=image%2Fjpeg" </img>
+        
+        </div> </center>
+
+    <iframe width="362" height="620 style="border: 0px;"
+      src="https://studio.code.org/projects/applab/Mb6zpfHSDMelgyh6tEm4L65Rk0fhZ-XTT6IJtWjoFJI">
+      
+    </iframe>
+
+
+<style>
+
+  nav {
+  list-style-type: none;
+  position: fixed;
+  width: 100vw;
+  background-color: Black;
+  left: 0;
+  top: 0;
+}
+
+body{
+  background-color:antiquewhite;
+  position:flex;
+}
+
+li{
+   font-size: 25px;
+}
+
+.navli {
+  display: inline;
+  float: left;
+  padding: 11px;
+}
+.navli a {
+  text-decoration: none;
+  color: white;
+}
+.navli li{:hover background-color: gold;}
+
+
+
+
+
+div {
+  background-color: white;
+  border: solid 5px gold;
+  border-radius: 10px;
+}
+.wrapper {
+  display: grid;
+  height: 200vh;
+  grid-template:
+    "A B C " auto
+    "D E";
+  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+  postion: relative;
+  
+}
+
+img {
+  border: solid lightblue 16px;
+  width: 100000px;
+}
+
+img:hover {
+  border: solid lightblue 12px;
+}
+
+.Header {
+  grid-column: 1 / 4;
+  front-size: 89px;
+  font:Lucida Handwriting;
+}
+.B {
+  grid-row: 3 / 5;
+  height:320px;
+}
+
+.D {
+  grid-area: 2 / 2 / 5 / 2;
+  width:1000px;
+  height:800px;
+  
+  
+} /* row line / column line / end row / end column */
+
+.A {
+  height:100vh;
+  width: 20vh;
+}
+
+img {
+  width:400px
+}
+
+p {
+  font-size:50px;
+  font-family:Lucida Handwriting;
+}
+
+p2{
+  Font-size:33px;
+}
+
+.E{
+  width:600px;
+  height:950px;
+  
+}
+
+.C{
+  width:700px;
+}
+
+* {box-sizing:border-box}
+
+#topBtn{
+  position: fixed;
+  bottom: 2%;
+  right: 3%;
+  font-size:30px;
+  background-color:aqua;
+  border-radius: 10px;
+  padding: 100px;
+  display:none;
+}
+
+#topBtn:hover{
+  border: solid gold 10px;
+    
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slideshow-container, .mySlides fade, .numbertext, .text{
+  border:0px;
+  background-color:black;
+ 
+}
+
+.dot{
+  border-color:white;
+}
+
+
+ 
+      nav {
+            list-style-type: none;
+            postion: fixed;
+            width: 100%;
+            background-color: Black;
+            left: 0;
+          }
+
+      li {
+            display: inline;
+            Float: left;
+            padding: 11px;
+         }
+
+      a {
+          text-decoration: none;
+          color:White
+        }
+    
+  
+  
+
+</style>
+    
+</body>
+</html>
 
